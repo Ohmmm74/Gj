@@ -1,0 +1,1009 @@
+﻿<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, viewport-fit=cover">
+  <title>laimue · ถอดลายมือและแปลภาษา</title>
+  <meta name="theme-color" content="#A8391F">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="format-detection" content="telephone=no">
+    <link rel="icon" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTYgMjU2IiByb2xlPSJpbWciIGFyaWEtbGFiZWw9IkxhaW11ZSBpY29uIj4KICA8ZGVmcz4KICAgIDxsaW5lYXJHcmFkaWVudCBpZD0iZzEiIHgxPSIwIiB4Mj0iMSIgeTE9IjAiIHkyPSIxIj4KICAgICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2Q4NzA0ZCIvPgogICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNhODM5MWYiLz4KICAgIDwvbGluZWFyR3JhZGllbnQ+CiAgPC9kZWZzPgogIDxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiByeD0iNTIiIGZpbGw9IiNmN2YyZTciLz4KICA8cGF0aCBkPSJNODIgMTg0Yy0xNCAwLTI2LTExLTI2LTI1Vjk2YzAtMTQgMTItMjUgMjYtMjVoNDBjMTUgMCAyNyAxMSAyNyAyNXY3bDMxLTMxYzEyLTEyIDMxLTEyIDQzIDAgMTIgMTIgMTIgMzEgMCA0M0wxOTAgMTM4djIxYzAgMTQtMTEgMjUtMjUgMjVIODJ6bTQ2LTMwYzEwIDAgMTgtOCAxOC0xOHYtMTVjMC0xMC04LTE4LTE4LTE4aC0xYy0xMCAwLTE4IDgtMTggMTh2MTVjMCAxMCA4IDE4IDE4IDE4aDF6bTM2LTUzIDIxLTIxYzQtNCAxMC00IDE0IDBzNCAxMCAwIDE0bC0yMSAyMS0xNC0xNHoiIGZpbGw9InVybCgjZzEpIi8+CiAgPHBhdGggZD0iTTkxIDE5MWg4MGMxMCAwIDE4IDggMTggMTh2OEg3M3YtOGMwLTEwIDgtMTggMTgtMTh6IiBmaWxsPSIjMjIzMDRhIiBvcGFjaXR5PSIwLjkiLz4KPC9zdmc+Cg==" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTYgMjU2IiByb2xlPSJpbWciIGFyaWEtbGFiZWw9IkxhaW11ZSBpY29uIj4KICA8ZGVmcz4KICAgIDxsaW5lYXJHcmFkaWVudCBpZD0iZzEiIHgxPSIwIiB4Mj0iMSIgeTE9IjAiIHkyPSIxIj4KICAgICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2Q4NzA0ZCIvPgogICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNhODM5MWYiLz4KICAgIDwvbGluZWFyR3JhZGllbnQ+CiAgPC9kZWZzPgogIDxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiByeD0iNTIiIGZpbGw9IiNmN2YyZTciLz4KICA8cGF0aCBkPSJNODIgMTg0Yy0xNCAwLTI2LTExLTI2LTI1Vjk2YzAtMTQgMTItMjUgMjYtMjVoNDBjMTUgMCAyNyAxMSAyNyAyNXY3bDMxLTMxYzEyLTEyIDMxLTEyIDQzIDAgMTIgMTIgMTIgMzEgMCA0M0wxOTAgMTM4djIxYzAgMTQtMTEgMjUtMjUgMjVIODJ6bTQ2LTMwYzEwIDAgMTgtOCAxOC0xOHYtMTVjMC0xMC04LTE4LTE4LTE4aC0xYy0xMCAwLTE4IDgtMTggMTh2MTVjMCAxMCA4IDE4IDE4IDE4aDF6bTM2LTUzIDIxLTIxYzQtNCAxMC00IDE0IDBzNCAxMCAwIDE0bC0yMSAyMS0xNC0xNHoiIGZpbGw9InVybCgjZzEpIi8+CiAgPHBhdGggZD0iTTkxIDE5MWg4MGMxMCAwIDE4IDggMTggMTh2OEg3M3YtOGMwLTEwIDgtMTggMTgtMTh6IiBmaWxsPSIjMjIzMDRhIiBvcGFjaXR5PSIwLjkiLz4KPC9zdmc+Cg==">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Thai:wght@500;700&family=Sarabun:wght@400;500;600&display=swap" rel="stylesheet">
+  <style>
+:root{
+  --paper:#F7F2E7;
+  --ink:#22304A;
+  --ink-soft:#4C5A73;
+  --wax:#A8391F;
+  --wax-dark:#7A2A16;
+  --line:#DCD3BE;
+  --card:#FFFDF8;
+  --ok:#2F6B4F;
+}
+*{box-sizing:border-box;}
+html{-webkit-text-size-adjust:100%;}
+body{
+  margin:0;
+  background:var(--paper);
+  font-family:'Sarabun',sans-serif;
+  color:var(--ink);
+  line-height:1.6;
+  overflow-x:hidden;
+  -webkit-tap-highlight-color:transparent;
+}
+.wrap{
+  max-width:880px;margin:0 auto;
+  padding:40px 20px 60px;
+  padding-left:max(20px, env(safe-area-inset-left));
+  padding-right:max(20px, env(safe-area-inset-right));
+}
+header{margin-bottom:48px;}
+.eyebrow{
+  font-size:13px;letter-spacing:.08em;color:var(--wax);
+  font-weight:600;margin-bottom:10px;text-transform:uppercase;
+}
+h1{
+  font-family:'Noto Serif Thai',serif;
+  font-weight:700;
+  font-size:44px;
+  margin:0 0 10px;
+  color:var(--ink);
+  line-height:1.2;
+  letter-spacing:0.01em;
+}
+.h1-rule{width:64px;height:2px;background:var(--wax);margin:0;}
+.stage{
+  background:var(--card);
+  border:1px solid var(--line);
+  border-radius:16px;
+  padding:32px;
+  position:relative;
+  box-shadow:0 1px 0 var(--line);
+}
+.stage::before{
+  content:"";
+  position:absolute;top:0;left:28px;right:28px;height:3px;
+  background:repeating-linear-gradient(90deg,var(--wax) 0 14px, transparent 14px 24px);
+  opacity:.35;
+}
+.steps{display:flex;gap:8px;margin-bottom:20px;}
+.step{
+  flex:1;padding:10px 14px;border-radius:10px;font-size:13px;font-weight:600;
+  color:var(--ink-soft);background:var(--paper);border:1px solid var(--line);
+  text-align:center;transition:all .2s;
+}
+.step.active{background:var(--wax);color:#fff;border-color:var(--wax);}
+.step.done{background:var(--ok);color:#fff;border-color:var(--ok);}
+
+.lang-switch-box{
+  display:flex;
+  gap:10px;
+  margin-bottom:20px;
+  justify-content:center;
+}
+.lang-option{
+  flex:1;
+  max-width:260px;
+  cursor:pointer;
+}
+.lang-option input{
+  display:none;
+}
+.lang-btn-card{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  padding:10px 14px;
+  background:var(--paper);
+  border:1px solid var(--line);
+  border-radius:10px;
+  font-size:13.5px;
+  font-weight:600;
+  color:var(--ink-soft);
+  transition:all .2s ease;
+  box-shadow:0 2px 0 var(--line);
+}
+.lang-option input:checked + .lang-btn-card{
+  background:#fff;
+  border-color:var(--wax);
+  color:var(--wax);
+  box-shadow:0 3px 0 var(--wax), 0 4px 10px rgba(168,57,31,0.15);
+  transform:translateY(-1px);
+}
+
+.drop{
+  border:2px dashed var(--line);
+  border-radius:12px;
+  padding:40px 20px;
+  text-align:center;
+  cursor:pointer;
+  transition:border-color .2s, background .2s;
+}
+.drop:hover, .drop.drag{border-color:var(--wax); background:#FBF6EC;}
+.drop-icon{font-size:32px;margin-bottom:10px;color:var(--wax);}
+.drop p{margin:0;font-size:15px;color:var(--ink-soft);}
+.drop .hint{font-size:13px;color:#8A8577;margin-top:4px;}
+.btnrow{display:flex;gap:10px;justify-content:center;margin-top:18px;flex-wrap:wrap;}
+button{
+  font-family:'Sarabun',sans-serif;font-weight:600;font-size:14px;
+  padding:11px 20px;border-radius:9px;border:1px solid var(--line);
+  background:#fff;color:var(--ink);cursor:pointer;
+  box-shadow:0 3px 0 var(--line), 0 5px 10px rgba(34,48,74,0.10);
+  transform:translateY(0);
+  transition:transform .12s ease, box-shadow .12s ease, border-color .12s, color .12s, background .12s;
+}
+button:hover{border-color:var(--wax);color:var(--wax);}
+button:active{transform:translateY(3px);box-shadow:0 0 0 var(--line), 0 1px 3px rgba(34,48,74,0.10);}
+button.primary{background:var(--wax);color:#fff;border-color:var(--wax-dark);box-shadow:0 3px 0 var(--wax-dark), 0 6px 14px rgba(168,57,31,0.30);}
+button.primary:hover{background:var(--wax-dark);color:#fff;}
+button.primary:active{transform:translateY(3px);box-shadow:0 0 0 var(--wax-dark), 0 2px 5px rgba(168,57,31,0.30);}
+button:disabled{opacity:.4;cursor:not-allowed;transform:none;box-shadow:0 3px 0 var(--line), 0 5px 10px rgba(34,48,74,0.10);}
+input[type=file]{display:none;}
+.preview{margin-top:20px;text-align:center;}
+.preview img{max-width:100%;max-height:320px;border-radius:10px;border:1px solid var(--line);}
+.progress-wrap{margin-top:18px;display:none;}
+.progress-wrap.show{display:block;}
+.progress-label{font-size:13px;color:var(--ink-soft);margin-bottom:6px;display:flex;justify-content:space-between;}
+.progress-bar{height:6px;background:var(--paper);border-radius:4px;overflow:hidden;border:1px solid var(--line);}
+.progress-fill{height:100%;background:var(--wax);width:0%;transition:width .2s;}
+.result{margin-top:28px;display:none;}
+.result.show{display:block;}
+.panel{margin-bottom:18px;}
+.panel-label{
+  font-size:12px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;
+  color:var(--ink-soft);margin-bottom:8px;display:flex;align-items:center;gap:8px;
+}
+.panel-label .flag{font-size:14px;}
+textarea{
+  width:100%;min-height:320px;padding:16px;border-radius:10px;
+  border:1px solid var(--line);font-family:'Sarabun',sans-serif;font-size:15px;
+  color:var(--ink);background:#fff;resize:vertical;line-height:1.7;
+}
+.correction-note{
+  display:none;margin-top:8px;font-size:12.5px;color:var(--ink-soft);
+  align-items:center;gap:6px;
+}
+.correction-note.show{display:flex;}
+.correction-note.fixed{color:var(--ok);}
+.correction-note .dot{width:6px;height:6px;border-radius:50%;background:currentColor;flex-shrink:0;}
+.accuracy-toggle{
+  display:flex;align-items:center;gap:10px;margin:14px 0 0;padding:12px 14px;
+  background:var(--paper);border:1px solid var(--line);border-radius:10px;font-size:13.5px;color:var(--ink-soft);
+}
+.accuracy-toggle-label{display:flex;align-items:center;gap:10px;flex:1;cursor:pointer;}
+.accuracy-toggle input{width:16px;height:16px;accent-color:var(--wax);flex-shrink:0;}
+.accuracy-toggle b{color:var(--ink);}
+.info-wrap{position:relative;flex-shrink:0;}
+.info-btn{
+  width:20px;height:20px;padding:0;border-radius:50%;
+  display:flex;align-items:center;justify-content:center;
+  font-size:12px;font-weight:700;font-style:italic;font-family:Georgia,serif;
+  color:var(--wax);border:1px solid var(--wax);background:#fff;line-height:1;
+  box-shadow:0 2px 0 var(--wax), 0 3px 6px rgba(168,57,31,0.20);
+}
+.info-btn:hover{background:var(--wax);color:#fff;}
+.info-btn:active{transform:translateY(2px);box-shadow:0 0 0 var(--wax), 0 1px 2px rgba(168,57,31,0.20);}
+.info-popup{
+  display:none;position:absolute;bottom:calc(100% + 10px);right:-6px;width:280px;
+  background:var(--card);border:1px solid var(--line);border-radius:10px;
+  padding:14px 16px;font-size:13px;line-height:1.6;color:var(--ink-soft);
+  box-shadow:0 6px 20px rgba(34,48,74,0.14);z-index:10;text-align:left;
+}
+.info-popup.show{display:block;}
+.info-popup::after{
+  content:"";position:absolute;top:100%;right:12px;
+  border:6px solid transparent;border-top-color:var(--line);
+}
+.info-popup b{color:var(--ink);}
+.copy-btn{
+  margin-left:auto;font-size:12px;padding:5px 12px;border-radius:7px;
+  box-shadow:0 2px 0 var(--line), 0 3px 6px rgba(34,48,74,0.08);
+}
+.copy-btn:active{transform:translateY(2px);box-shadow:0 0 0 var(--line), 0 1px 2px rgba(34,48,74,0.08);}
+.copy-btn.copied{color:var(--ok);border-color:var(--ok);}
+@media (min-width:640px){
+  .wrap{padding-top:56px;padding-bottom:80px;}
+}
+@media (max-width:560px){
+  h1{font-size:32px;}
+  .stage{padding:18px;}
+  .steps{flex-direction:column;}
+  .drop{padding:30px 14px;}
+  textarea{min-height:260px;}
+  .info-btn{width:26px;height:26px;font-size:13px;}
+  .info-popup{right:-14px;width:calc(100vw - 76px);max-width:280px;}
+  .copy-btn{padding:7px 14px;}
+  button{padding:12px 18px;}
+  .accuracy-toggle{flex-wrap:wrap;}
+}
+@media (max-width:360px){
+  .wrap{padding-left:14px;padding-right:14px;}
+  h1{font-size:28px;}
+}
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="eyebrow">ระบบถอดความและแปลภาษาระดับสูง</div>
+      <h1>laimue</h1>
+      <div class="h1-rule"></div>
+    </header>
+
+    <main class="stage">
+      <div class="steps">
+        <div class="step active" id="step1">1 · เลือกภาพ</div>
+        <div class="step" id="step2">2 · อ่านลายมือ</div>
+      </div>
+
+      <!-- กล่องเลือกภาษา -->
+      <div class="lang-switch-box" role="radiogroup" aria-label="เลือกภาษาของลายมือ">
+        <label class="lang-option">
+          <input type="radio" name="ocrLang" value="eng" checked>
+          <span class="lang-btn-card">🇬🇧 ภาษาอังกฤษ (English)</span>
+        </label>
+        <label class="lang-option">
+          <input type="radio" name="ocrLang" value="tha">
+          <span class="lang-btn-card">🇹🇭 ภาษาไทย (Thai)</span>
+        </label>
+      </div>
+
+      <p class="hint" id="thaiHint" style="display:none;margin:-8px 0 16px;text-align:center;">
+        ⓘ โหมดภาษาไทย: AI จะวิเคราะห์สระ วรรณยุกต์ และบริบทเพื่อถอดความให้อย่างแม่นยำ
+      </p>
+
+      <div class="drop" id="drop" tabindex="0" role="button" aria-label="อัปโหลดภาพ">
+        <div class="drop-icon">✎</div>
+        <p>ลากรูปมาวาง หรือคลิกเพื่อเลือกไฟล์</p>
+        <p class="hint">รองรับ .jpg .png .webp · หรือถ่ายรูปจากกล้องมือถือได้ทันที</p>
+      </div>
+      <input type="file" id="fileInput" accept="image/*">
+      <input type="file" id="cameraInput" accept="image/*" capture="environment">
+
+      <div class="btnrow" id="initialBtnRow">
+        <button type="button" id="btnUpload">เลือกรูปจากเครื่อง</button>
+        <button type="button" id="btnCamera">ถ่ายภาพด้วยกล้อง</button>
+      </div>
+
+      <div class="preview" id="preview" style="display:none;">
+        <img id="previewImg" alt="ภาพลายมือที่เลือก">
+        <div class="btnrow">
+          <button type="button" class="primary" id="btnRead">อ่านลายมือ</button>
+          <button type="button" id="btnReset">เลือกรูปใหม่</button>
+        </div>
+        <div class="accuracy-toggle" style="padding:10px 12px;">
+          <label class="accuracy-toggle-label" style="justify-content:center; text-align:center;">
+            <span>ต้องใส่ API Key เพื่อเริ่มต้นใช้งาน</span>
+          </label>
+        </div>
+        <div id="geminiKeyBox" style="margin-top:10px;">
+          <input type="password" id="geminiApiKey" placeholder="วาง Gemini API Key ของคุณเอง (ไม่ถูกบันทึกที่ไหน อยู่ในหน้านี้ชั่วคราวเท่านั้น)"
+            style="width:100%;padding:10px 12px;border:1px solid var(--line);border-radius:8px;font-family:'Sarabun',sans-serif;font-size:13px;box-sizing:border-box;">
+          <p class="hint" style="margin:6px 2px 0;">
+            ยังไม่มีคีย์? สร้างได้ที่ <a href="https://aistudio.google.com/app/apikey" target="_blank" rel="noopener">aistudio.google.com/app/apikey</a>
+          </p>
+        </div>
+      </div>
+
+      <div class="progress-wrap" id="progressWrap">
+        <div class="progress-label">
+          <span id="progressText">กำลังเตรียมระบบอ่านตัวอักษร…</span>
+          <span id="progressPct">0%</span>
+        </div>
+        <div class="progress-bar">
+          <div class="progress-fill" id="progressFill"></div>
+        </div>
+        <div id="techDetail" style="display:none;margin-top:8px;font-size:11.5px;color:#8A8577;word-break:break-word;"></div>
+      </div>
+
+      <div class="result" id="result">
+        <div class="panel">
+          <div class="panel-label">
+            <span class="flag">✎</span>
+            <span id="ocrLabel">ข้อความที่อ่านได้ (แก้ไขได้)</span>
+            <button type="button" class="copy-btn" id="btnCopy">คัดลอก</button>
+          </div>
+          <textarea id="ocrText" placeholder="ข้อความที่อ่านได้จากลายมือจะแสดงที่นี่…"></textarea>
+          <div class="correction-note" id="correctionNote"></div>
+        </div>
+      </div>
+    </main>
+  </div>
+
+  <!-- โหลด Tesseract.js สำหรับระบบ Offline -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tesseract.js/5.0.4/tesseract.min.js"></script>
+  <!-- กลับมาใช้ Script แบบธรรมดา -->
+  <script>
+// ==========================================
+// Handwriting Translator (Laimue) - Stable Classic Version
+// ==========================================
+
+const DOM = {
+  drop: document.getElementById('drop'),
+  fileInput: document.getElementById('fileInput'),
+  cameraInput: document.getElementById('cameraInput'),
+  btnUpload: document.getElementById('btnUpload'),
+  btnCamera: document.getElementById('btnCamera'),
+  initialBtnRow: document.getElementById('initialBtnRow'),
+  preview: document.getElementById('preview'),
+  previewImg: document.getElementById('previewImg'),
+  btnRead: document.getElementById('btnRead'),
+  btnReset: document.getElementById('btnReset'),
+  progressWrap: document.getElementById('progressWrap'),
+  progressFill: document.getElementById('progressFill'),
+  progressPct: document.getElementById('progressPct'),
+  progressText: document.getElementById('progressText'),
+  result: document.getElementById('result'),
+  ocrText: document.getElementById('ocrText'),
+  step1: document.getElementById('step1'),
+  step2: document.getElementById('step2'),
+  btnCopy: document.getElementById('btnCopy'),
+  infoBtn: document.getElementById('infoBtn'),
+  infoPopup: document.getElementById('infoPopup'),
+  highAccuracy: document.getElementById('highAccuracy'),
+  correctionNote: document.getElementById('correctionNote'),
+  techDetail: document.getElementById('techDetail'),
+  thaiHint: document.getElementById('thaiHint'),
+  geminiApiKey: document.getElementById('geminiApiKey'),
+  langOptions: document.querySelectorAll('input[name="ocrLang"]')
+};
+
+// ✅ ใช้รุ่นที่ถูกต้องกับ API Key ที่สร้างจาก AI Studio ล่าสุด
+// คีย์นี้ตรวจสอบแล้วว่าใช้ได้จริงกับ gemini-flash-latest / gemini-flash-lite-latest
+const GEMINI_CONFIG = {
+  model: 'gemini-flash-latest',
+  fallbackModels: ['gemini-flash-lite-latest'],
+  tokenTracker: { used: 0, estimated: 0 }
+};
+
+let currentFile = null;
+let currentPreviewUrl = null;
+let processGeneration = 0;
+
+// UI State Management
+function setStep(stepNumber) {
+  [DOM.step1, DOM.step2].forEach((el, index) => {
+    if (!el) return;
+    el.classList.remove('active', 'done');
+    if (index + 1 < stepNumber) el.classList.add('done');
+    if (index + 1 === stepNumber) el.classList.add('active');
+  });
+}
+
+function updateProgress(percent, text) {
+  if (DOM.progressFill) DOM.progressFill.style.width = `${percent}%`;
+  if (DOM.progressPct) DOM.progressPct.textContent = `${percent}%`;
+  if (DOM.progressText && text) DOM.progressText.textContent = text;
+}
+
+function updateThaiHint() {
+  const selectedLang = document.querySelector('input[name="ocrLang"]:checked');
+  if (DOM.thaiHint) {
+    DOM.thaiHint.style.display = (selectedLang && selectedLang.value === 'tha') ? 'block' : 'none';
+  }
+}
+
+function showStatusBadge(isThai, modelUsed) {
+  if (!DOM.correctionNote) return;
+  DOM.correctionNote.classList.add('show', 'fixed');
+  const langLabel = isThai ? 'ภาษาไทย' : 'ภาษาอังกฤษ';
+  DOM.correctionNote.innerHTML = `<span class="dot"></span>ถอดลายมือ${langLabel}ด้วย ${modelUsed}`;
+}
+
+// Text Cleaning
+function cleanRecognizedText(text, isThai) {
+  if (!text) return '';
+  let cleaned = text.trim();
+  cleaned = cleaned.replace(/^```[a-zA-Z]*\n?/, '').replace(/\n?```$/, '');
+
+  if (!isThai) {
+    cleaned = cleaned
+      .replace(/[ \t]+\n/g, '\n')
+      .replace(/\n{3,}/g, '\n\n')
+      .replace(/\s+([.?!,;:])/g, '$1');
+  } else {
+    cleaned = cleaned
+      .replace(/[ \t]+\n/g, '\n')
+      .replace(/[ ]{2,}/g, ' ');
+  }
+  return cleaned.trim();
+}
+
+// Image Optimization (ป้องกันขนาดไฟล์ใหญ่เกิน) + Timeout + ULTRA COMPRESS สำหรับ Gemini
+function getOptimizedBase64(file, maxWidth = 1440, quality = 0.6, timeoutMs = 15000) {
+  return new Promise((resolve, reject) => {
+    const img = new Image();
+    const url = URL.createObjectURL(file);
+    const timeoutId = setTimeout(() => {
+      URL.revokeObjectURL(url);
+      img.src = '';
+      reject(new Error("หมดเวลาในการประมวลผลรูปภาพ (Timeout)"));
+    }, timeoutMs);
+    
+    img.onload = () => {
+      clearTimeout(timeoutId);
+      URL.revokeObjectURL(url);
+      let width = img.width;
+      let height = img.height;
+      
+      // ✅ ULTRA COMPRESS: ลดขนาดเพิ่มเติม สำหรับประหยัด token
+      if (width > maxWidth || height > maxWidth) {
+        if (width > height) {
+          height = Math.round((height * maxWidth) / width);
+          width = maxWidth;
+        } else {
+          width = Math.round((width * maxWidth) / height);
+          height = maxWidth;
+        }
+      }
+      
+      const canvas = document.createElement('canvas');
+      canvas.width = width;
+      canvas.height = height;
+      const ctx = canvas.getContext('2d');
+      ctx.drawImage(img, 0, 0, width, height);
+      
+      // ✅ ลด quality ลง (0.8 → 0.6) ประหยัด 40% file size + token
+      const dataUrl = canvas.toDataURL('image/jpeg', quality);
+      const base64String = dataUrl.split(',')[1];
+      resolve(base64String);
+    };
+    img.onerror = () => {
+      clearTimeout(timeoutId);
+      URL.revokeObjectURL(url);
+      reject(new Error("ไม่สามารถอ่านไฟล์รูปภาพได้"));
+    };
+    img.src = url;
+  });
+}
+
+// Engine 1: Gemini API (ใช้ fetch ดั้งเดิมที่ทำงานได้ชัวร์)
+async function callGeminiVision(file, isThai, apiKey) {
+  updateProgress(35, 'กำลังประมวลผลรูปภาพผ่าน AI (Gemini)...');
+  // ✅ ULTRA COMPRESS: quality 0.6 = ประหยัด 50% token
+  const base64Data = await getOptimizedBase64(file, 1440, 0.6);
+
+  // ✅ SIMPLIFIED PROMPT: ลดคำพูด = ประหยัด input tokens มาก
+  const prompt = isThai
+    ? `Read Thai handwriting. Fix tone marks. Return text only.`
+    : `Read handwriting accurately. Return text only.`;
+
+  const modelsToTry = [GEMINI_CONFIG.model, ...(GEMINI_CONFIG.fallbackModels || [])];
+
+  let lastError = null;
+  for (const modelName of modelsToTry) {
+    updateProgress(50, `กำลังส่งข้อมูลไปยัง AI (${modelName})...`);
+    const endpoint = `https://generativelanguage.googleapis.com/v1beta/models/${modelName}:generateContent?key=${apiKey}`;
+
+    const controller = new AbortController();
+    const timeoutId = setTimeout(() => controller.abort(), 25000);
+
+    try {
+      const response = await fetch(endpoint, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        signal: controller.signal,
+        body: JSON.stringify({
+          contents: [{
+            parts: [
+              { text: prompt },
+              { inlineData: { mimeType: 'image/jpeg', data: base64Data } }
+            ]
+          }],
+          generationConfig: { temperature: 0.1, maxOutputTokens: 1024 }
+        })
+      });
+      clearTimeout(timeoutId);
+
+      const data = await response.json();
+
+      if (!response.ok) {
+        lastError = new Error(data?.error?.message || `HTTP ${response.status}`);
+        continue;
+      }
+
+      const textResult = data?.candidates?.[0]?.content?.parts?.map(part => part.text || '').join('').trim();
+      const estimatedTokens = Math.ceil((prompt.length + (textResult?.length || 0) + (base64Data.length / 3)) / 4);
+      console.log(`📊 Token estimate: ~${estimatedTokens} tokens (ใช้ทั้ง input + image + output)`);
+
+      if (textResult) return { text: textResult, model: modelName };
+
+      lastError = new Error('ไม่พบข้อความในรูปภาพ หรือ API ตอบกลับผิดพลาด');
+    } catch (err) {
+      clearTimeout(timeoutId);
+      lastError = (err && err.name === 'AbortError') ? new Error('หมดเวลาเชื่อมต่อ (25 วินาที) กรุณาลองใหม่') : err;
+    }
+  }
+
+  throw lastError || new Error('การเชื่อมต่อกับระบบ AI ล้มเหลว');
+}
+
+// ===== ตัวช่วยสำหรับภาษาไทยโดยเฉพาะ (แยกหมึกจากเส้นตาราง / อ่านทีละบรรทัด / สแนปคำที่พบบ่อย) =====
+
+function loadOrientedImage(file) {
+  if ('createImageBitmap' in window) {
+    return createImageBitmap(file, { imageOrientation: 'from-image' }).catch(() => loadImageFallback(file));
+  }
+  return loadImageFallback(file);
+}
+function loadImageFallback(file) {
+  return new Promise((resolve, reject) => {
+    const img = new Image();
+    const url = URL.createObjectURL(file);
+    img.onload = () => resolve(img);
+    img.onerror = () => { URL.revokeObjectURL(url); reject(new Error('ไม่สามารถเปิดไฟล์รูปภาพนี้ได้')); };
+    img.src = url;
+  });
+}
+
+// แยก "หมึกสีน้ำเงิน/เข้ม" ออกจากเส้นตารางกระดาษ (โทนเทาเรียบ) แล้วขยายภาพให้ใหญ่พอสำหรับสระ/วรรณยุกต์เล็กๆ
+function preprocessThaiImage(file, boost) {
+  return new Promise((resolve, reject) => {
+    loadOrientedImage(file).then(img => {
+      let w = img.width, h = img.height;
+      if (!w || !h) { reject(new Error('อ่านขนาดภาพไม่ได้')); return; }
+
+      const HARD_CAP = 3200;
+      if (Math.max(w, h) > HARD_CAP) {
+        const down = HARD_CAP / Math.max(w, h);
+        w = Math.round(w * down); h = Math.round(h * down);
+      }
+      if (boost) {
+        const targetLong = 3000;
+        const longSide = Math.max(w, h);
+        if (longSide < targetLong) {
+          const up = targetLong / longSide;
+          w = Math.round(w * up); h = Math.round(h * up);
+        }
+      }
+
+      const canvas = document.createElement('canvas');
+      canvas.width = w; canvas.height = h;
+      const ctx = canvas.getContext('2d');
+      ctx.imageSmoothingEnabled = true;
+      ctx.imageSmoothingQuality = 'high';
+      ctx.drawImage(img, 0, 0, w, h);
+      if (typeof img.close === 'function') img.close();
+
+      let imgData;
+      try { imgData = ctx.getImageData(0, 0, w, h); }
+      catch (e) { reject(new Error('ประมวลผลภาพไม่สำเร็จ')); return; }
+      const d = imgData.data;
+
+      for (let i = 0; i < d.length; i += 4) {
+        const r = d[i], g = d[i + 1], b = d[i + 2];
+        const inkScore = b - (r + g) / 2; // หมึกน้ำเงิน: ช่อง Blue เด่นกว่า Red/Green ชัดเจน
+        const isGrayish = Math.abs(r - g) < 12 && Math.abs(g - b) < 12 && Math.abs(r - b) < 12;
+        const isDark = (r + g + b) / 3 < 110; // รองรับหมึกดำ/น้ำเงินเข้มด้วย ไม่ใช่แค่สีฟ้า
+
+        if ((inkScore > 18 && !isGrayish) || isDark) {
+          d[i] = d[i + 1] = d[i + 2] = 0;
+        } else {
+          d[i] = d[i + 1] = d[i + 2] = 255;
+        }
+      }
+      ctx.putImageData(imgData, 0, 0);
+
+      canvas.toBlob(blob => blob ? resolve({ blob, canvas }) : reject(new Error('แปลงภาพเป็นไฟล์ไม่สำเร็จ')), 'image/png', 1.0);
+    }).catch(reject);
+  });
+}
+
+function findInkLineBands(canvas) {
+  const ctx = canvas.getContext('2d');
+  const { width, height } = canvas;
+  const data = ctx.getImageData(0, 0, width, height).data;
+  const rowInk = new Array(height).fill(0);
+  for (let y = 0; y < height; y++) {
+    let count = 0;
+    const base = y * width * 4;
+    for (let x = 0; x < width; x++) {
+      if (data[base + x * 4] < 128) count++;
+    }
+    rowInk[y] = count;
+  }
+  const minInk = Math.max(2, Math.round(width * 0.003));
+  const rawBands = [];
+  let inBand = false, start = 0;
+  for (let y = 0; y < height; y++) {
+    if (rowInk[y] > minInk) {
+      if (!inBand) { inBand = true; start = y; }
+    } else if (inBand) {
+      inBand = false; rawBands.push([start, y]);
+    }
+  }
+  if (inBand) rawBands.push([start, height]);
+
+  const mergeGap = Math.max(10, Math.round(height * 0.015));
+  const bands = [];
+  for (const b of rawBands) {
+    if (bands.length && b[0] - bands[bands.length - 1][1] < mergeGap) {
+      bands[bands.length - 1][1] = b[1];
+    } else {
+      bands.push([...b]);
+    }
+  }
+  const minHeight = Math.max(8, Math.round(height * 0.01));
+  return bands.filter(b => (b[1] - b[0]) >= minHeight);
+}
+
+function cropCanvasBand(canvas, y0, y1, padding) {
+  const width = canvas.width;
+  const top = Math.max(0, y0 - padding);
+  const bottom = Math.min(canvas.height, y1 + padding);
+  const h = bottom - top;
+  const out = document.createElement('canvas');
+  out.width = width; out.height = h;
+  out.getContext('2d').drawImage(canvas, 0, top, width, h, 0, 0, width, h);
+  return out;
+}
+
+function canvasToBlob(canvas) {
+  return new Promise((resolve, reject) => {
+    canvas.toBlob(blob => blob ? resolve(blob) : reject(new Error('แปลงภาพเป็นไฟล์ไม่สำเร็จ')), 'image/png', 1.0);
+  });
+}
+
+async function ocrThaiLineByLine(worker, canvas) {
+  const bands = findInkLineBands(canvas);
+  // ✅ ป้องกัน: ถ้ามี > 30 บรรทัด ให้ข้ามวิธีนี้ (ปกติโดยจะใช้วิธีอื่นแทน)
+  if (bands.length === 0 || bands.length > 30) return null;
+
+  const padding = Math.max(6, Math.round(canvas.height * 0.01));
+  await worker.setParameters({ preserve_interword_spaces: '1', tessedit_pageseg_mode: '7' });
+
+  const lines = [];
+  let confSum = 0, confCount = 0;
+  
+  // ✅ Timeout ต่อบรรทัด: 3 วินาที/บรรทัด × จำนวนบรรทัด
+  const lineTimeout = Math.min(90000, bands.length * 3000);
+  const startTime = Date.now();
+  
+  for (const [y0, y1] of bands) {
+    // ✅ ตรวจสอบ timeout
+    if (Date.now() - startTime > lineTimeout) {
+      console.warn(`ocrThaiLineByLine หมดเวลา (> ${lineTimeout}ms) - ใช้ผลลัพธ์ที่มีแล้ว`);
+      break;
+    }
+    
+    const lineCanvas = cropCanvasBand(canvas, y0, y1, padding);
+    const blob = await canvasToBlob(lineCanvas);
+    const { data } = await worker.recognize(blob);
+    const text = data.text.replace(/[ \t]{2,}/g, ' ').trim();
+    if (text) { lines.push(text); confSum += data.confidence; confCount++; }
+  }
+  if (lines.length === 0) return null;
+  return { text: lines.join('\n'), confidence: confCount ? confSum / confCount : 0 };
+}
+
+const THAI_COMMON_PHRASES = [
+  'สวัสดีวันจันทร์','สวัสดีวันอังคาร','สวัสดีวันพุธ','สวัสดีวันพฤหัสบดี','สวัสดีวันศุกร์','สวัสดีวันเสาร์','สวัสดีวันอาทิตย์',
+  'วันจันทร์','วันอังคาร','วันพุธ','วันพฤหัสบดี','วันศุกร์','วันเสาร์','วันอาทิตย์',
+  'สวัสดีตอนเช้า','สวัสดีตอนบ่าย','สวัสดีตอนเย็น','ขอบคุณค่ะ','ขอบคุณครับ','ขอให้มีความสุข','โชคดีนะ'
+];
+
+function levenshtein(a, b) {
+  const m = a.length, n = b.length;
+  if (m === 0) return n;
+  if (n === 0) return m;
+  const dp = Array.from({ length: m + 1 }, () => new Array(n + 1).fill(0));
+  for (let i = 0; i <= m; i++) dp[i][0] = i;
+  for (let j = 0; j <= n; j++) dp[0][j] = j;
+  for (let i = 1; i <= m; i++) {
+    for (let j = 1; j <= n; j++) {
+      const cost = a[i - 1] === b[j - 1] ? 0 : 1;
+      dp[i][j] = Math.min(dp[i - 1][j] + 1, dp[i][j - 1] + 1, dp[i - 1][j - 1] + cost);
+    }
+  }
+  return dp[m][n];
+}
+
+function snapToCommonThaiPhrases(text) {
+  if (!text) return text;
+  return text.split('\n').map(line => {
+    const t = line.trim();
+    if (!t) return line;
+    let best = null, bestDist = Infinity;
+    for (const phrase of THAI_COMMON_PHRASES) {
+      const dist = levenshtein(t, phrase);
+      if (dist < bestDist) { bestDist = dist; best = phrase; }
+    }
+    if (best && bestDist <= Math.max(1, Math.round(best.length * 0.25))) return best;
+    return line;
+  }).join('\n');
+}
+
+// Engine 2: Tesseract.js (Offline) - มี timeout handling
+async function callOfflineOCR(file, isThai, timeoutMs = 60000) {
+  if (typeof window.Tesseract === 'undefined') {
+    throw new Error('ไม่พบระบบอ่านออฟไลน์ (โปรดตรวจสอบอินเทอร์เน็ตตอนโหลดหน้าเว็บ)');
+  }
+
+  updateProgress(15, 'กำลังเปิดระบบ Offline Tesseract...');
+  const langCode = isThai ? 'tha' : 'eng';
+  // ภาษาไทยใช้ traineddata ชุด "best" (แม่นกว่าชุด fast มาตรฐานมากสำหรับตัวอักษรไทยที่ซับซ้อน)
+  const langPath = isThai
+    ? 'https://raw.githubusercontent.com/tesseract-ocr/tessdata_best/main'
+    : 'https://tessdata.projectnaptha.com/4.0.0';
+
+  const abortController = new AbortController();
+  const timeoutId = setTimeout(() => abortController.abort(), timeoutMs);
+
+  const worker = await window.Tesseract.createWorker(langCode, 1, {
+    logger: m => {
+      if (m.status === 'recognizing text' && m.progress) {
+        updateProgress(Math.round(20 + m.progress * 70), 'ระบบ Offline กำลังแกะลายมือ...');
+      } else if (m.status) {
+        updateProgress(20, 'กำลังโหลดข้อมูลภาษา (Offline)...');
+      }
+    },
+    workerPath: 'https://cdnjs.cloudflare.com/ajax/libs/tesseract.js/5.0.4/worker.min.js',
+    langPath,
+    corePath: 'https://cdn.jsdelivr.net/npm/tesseract.js-core@5.0.0/tesseract-core.wasm.js'
+  });
+
+  try {
+    if (!isThai) {
+      await worker.setParameters({
+        tessedit_pageseg_mode: '6',
+        preserve_interword_spaces: '1'
+      });
+      const base64Data = await getOptimizedBase64(file);
+      const { data } = await worker.recognize('data:image/jpeg;base64,' + base64Data);
+      clearTimeout(timeoutId);
+      return { text: data.text, model: 'Offline OCR (Tesseract)' };
+    }
+
+    // ภาษาไทย: อ่านหลายแบบ (ทั้งภาพ + ทีละบรรทัด) แล้วเลือกอันที่มั่นใจที่สุด จากนั้นสแนปเข้าคำที่พบบ่อย
+    const results = [];
+    const psmCandidates = ['6', '7', '11'];
+
+    for (const boost of [false, true]) {
+      const { blob, canvas } = await preprocessThaiImage(file, boost);
+      for (const psm of psmCandidates) {
+        await worker.setParameters({ preserve_interword_spaces: '1', tessedit_pageseg_mode: psm });
+        const { data } = await worker.recognize(blob);
+        const cleaned = data.text.trim();
+        if (cleaned) {
+          const score = data.confidence * 2 + Math.min(cleaned.length, 40) * 0.5;
+          results.push({ text: cleaned, confidence: data.confidence, score });
+        }
+      }
+      if (boost) {
+        updateProgress(75, 'กำลังอ่านทีละบรรทัด (Offline)...');
+        try {
+          const lineResult = await ocrThaiLineByLine(worker, canvas);
+          if (lineResult) {
+            const score = lineResult.confidence * 2.2 + Math.min(lineResult.text.length, 40) * 0.5;
+            results.push({ text: lineResult.text, confidence: lineResult.confidence, score });
+          }
+        } catch (e) { /* ไม่เป็นไร ใช้ผลลัพธ์อื่นแทน */ }
+      }
+    }
+
+    const winner = results.length
+      ? results.reduce((best, r) => r.score > best.score ? r : best, results[0])
+      : { text: '', confidence: 0 };
+
+    const snapped = snapToCommonThaiPhrases(winner.text);
+    clearTimeout(timeoutId);
+    return { text: snapped, model: 'Offline OCR (Tesseract, ปรับแต่งไทย)' };
+  } catch (error) {
+    clearTimeout(timeoutId);
+    if (error.name === 'AbortError') {
+      throw new Error('ระบบ Offline ใช้เวลานาน (> 60 วินาที) - ลองใหม่หรือใช้โหมด Gemini API');
+    }
+    throw error;
+  } finally {
+    await worker.terminate();
+  }
+}
+
+// File Input Handlers (ระบบตัวเก่าที่เปิดรูปได้ชัวร์ 100%)
+function handleFile(file) {
+  if (!file) return;
+  if (!file.type || !file.type.startsWith('image/')) {
+    alert('กรุณาเลือกไฟล์รูปภาพเท่านั้น (เช่น .jpg, .png)');
+    return;
+  }
+
+  processGeneration++;
+  currentFile = file;
+
+  // ✅ ล้าง Object URL เก่า + ความจำ
+  if (currentPreviewUrl) {
+    try {
+      URL.revokeObjectURL(currentPreviewUrl);
+    } catch (e) {
+      console.warn('ล้าง Object URL ไม่สำเร็จ:', e);
+    }
+  }
+  
+  currentPreviewUrl = URL.createObjectURL(file);
+  if (DOM.previewImg) {
+    DOM.previewImg.src = currentPreviewUrl;
+    DOM.previewImg.onerror = () => {
+      console.warn('โหลดรูปภาพ preview ไม่สำเร็จ');
+      URL.revokeObjectURL(currentPreviewUrl);
+      currentPreviewUrl = null;
+    };
+  }
+  
+  if (DOM.preview) DOM.preview.style.display = 'block';
+  if (DOM.drop) DOM.drop.style.display = 'none';
+  if (DOM.initialBtnRow) DOM.initialBtnRow.style.display = 'none';
+  
+  if (DOM.result) DOM.result.classList.remove('show');
+  if (DOM.progressWrap) DOM.progressWrap.classList.remove('show');
+  if (DOM.correctionNote) DOM.correctionNote.classList.remove('show', 'fixed');
+  if (DOM.techDetail) DOM.techDetail.style.display = 'none';
+  if (DOM.ocrText) DOM.ocrText.value = '';
+
+  setStep(1);
+}
+
+function resetApp() {
+  processGeneration++;
+  currentFile = null;
+
+  if (currentPreviewUrl) {
+    URL.revokeObjectURL(currentPreviewUrl);
+    currentPreviewUrl = null;
+  }
+
+  if (DOM.preview) DOM.preview.style.display = 'none';
+  if (DOM.drop) DOM.drop.style.display = 'block';
+  if (DOM.initialBtnRow) DOM.initialBtnRow.style.display = 'flex';
+  if (DOM.result) DOM.result.classList.remove('show');
+  if (DOM.progressWrap) DOM.progressWrap.classList.remove('show');
+  if (DOM.correctionNote) DOM.correctionNote.classList.remove('show', 'fixed');
+  if (DOM.techDetail) DOM.techDetail.style.display = 'none';
+  if (DOM.fileInput) DOM.fileInput.value = '';
+  if (DOM.cameraInput) DOM.cameraInput.value = '';
+
+  setStep(1);
+}
+
+// ✅ ป้องกัน duplicate initialization
+let eventsInitialized = false;
+
+function initEvents() {
+  if (eventsInitialized) {
+    console.warn('Event listeners already initialized - skipping...');
+    return;
+  }
+  eventsInitialized = true;
+
+  DOM.langOptions.forEach(el => el.addEventListener('change', updateThaiHint));
+  updateThaiHint();
+
+  if (DOM.drop) {
+    DOM.drop.addEventListener('click', () => DOM.fileInput && DOM.fileInput.click());
+    DOM.drop.addEventListener('keydown', e => { if (e.key === 'Enter' || e.key === ' ') DOM.fileInput && DOM.fileInput.click(); });
+    DOM.drop.addEventListener('dragover', e => { e.preventDefault(); DOM.drop.classList.add('drag'); });
+    DOM.drop.addEventListener('dragleave', e => { e.preventDefault(); DOM.drop.classList.remove('drag'); });
+    DOM.drop.addEventListener('drop', e => {
+      e.preventDefault();
+      DOM.drop.classList.remove('drag');
+      if (e.dataTransfer.files?.[0]) handleFile(e.dataTransfer.files[0]);
+    });
+  }
+
+  if (DOM.btnUpload) DOM.btnUpload.addEventListener('click', () => DOM.fileInput && DOM.fileInput.click());
+  if (DOM.btnCamera) DOM.btnCamera.addEventListener('click', () => DOM.cameraInput && DOM.cameraInput.click());
+  if (DOM.fileInput) DOM.fileInput.addEventListener('change', e => handleFile(e.target.files[0]));
+  if (DOM.cameraInput) DOM.cameraInput.addEventListener('change', e => handleFile(e.target.files[0]));
+  if (DOM.btnReset) DOM.btnReset.addEventListener('click', resetApp);
+
+  if (DOM.infoBtn && DOM.infoPopup) {
+    DOM.infoBtn.addEventListener('click', e => {
+      e.stopPropagation();
+      const isOpen = DOM.infoPopup.classList.toggle('show');
+      DOM.infoBtn.setAttribute('aria-expanded', String(isOpen));
+    });
+    document.addEventListener('click', e => {
+      if (!DOM.infoPopup.contains(e.target) && e.target !== DOM.infoBtn) {
+        DOM.infoPopup.classList.remove('show');
+        DOM.infoBtn.setAttribute('aria-expanded', 'false');
+      }
+    });
+  }
+
+  if (DOM.btnCopy) {
+    DOM.btnCopy.addEventListener('click', async () => {
+      const text = DOM.ocrText ? DOM.ocrText.value.trim() : '';
+      if (!text) return;
+      try {
+        await navigator.clipboard.writeText(text);
+        DOM.btnCopy.textContent = 'คัดลอกแล้ว';
+        DOM.btnCopy.classList.add('copied');
+        setTimeout(() => {
+          DOM.btnCopy.textContent = 'คัดลอก';
+          DOM.btnCopy.classList.remove('copied');
+        }, 1800);
+      } catch (err) {
+        DOM.btnCopy.textContent = 'คัดลอกไม่สำเร็จ';
+        setTimeout(() => { DOM.btnCopy.textContent = 'คัดลอก'; }, 1800);
+      }
+    });
+  }
+
+if (DOM.btnRead) {
+  DOM.btnRead.addEventListener('click', async () => {
+    if (!currentFile) return;
+    if (DOM.btnRead.disabled) return; // ป้องกัน rapid click
+
+    const runId = ++processGeneration;
+    setStep(2);
+
+    if (DOM.progressWrap) DOM.progressWrap.classList.add('show');
+    DOM.btnRead.disabled = true;
+    
+    // สร้าง timeout หลัก (90 วินาที) เพื่อป้องกัน hang
+    const mainTimeoutId = setTimeout(() => {
+      if (runId === processGeneration && DOM.btnRead.disabled) {
+        DOM.btnRead.disabled = false;
+        updateProgress(0, 'หมดเวลา (90 วินาที) - กรุณาลองใหม่');
+        if (DOM.techDetail) {
+          DOM.techDetail.style.display = 'block';
+          DOM.techDetail.textContent = 'เซッสชั่นใช้เวลานานเกินไป - อาจเนื่องจากอินเทอร์เน็ตช้าหรือปัญหา API';
+        }
+      }
+    }, 90000);
+
+    const selectedLangEl = document.querySelector('input[name="ocrLang"]:checked');
+    const isThai = selectedLangEl?.value === 'tha';
+
+    if (DOM.techDetail) {
+      DOM.techDetail.style.display = 'none';
+      DOM.techDetail.textContent = '';
+    }
+
+    try {
+      const apiKey = DOM.geminiApiKey ? DOM.geminiApiKey.value.trim() : '';
+      if (!apiKey) {
+        throw new Error('ยังไม่ได้ใส่ Gemini API Key — กรุณาใส่คีย์จาก Google AI Studio ก่อนใช้งาน');
+      }
+      const resultData = await callGeminiVision(currentFile, isThai, apiKey);
+
+      if (runId !== processGeneration) return;
+
+      updateProgress(90, 'กำลังจัดระเบียบข้อความ...');
+      const finalizedText = cleanRecognizedText(resultData.text, isThai);
+
+      updateProgress(100, 'ประมวลผลเสร็จสิ้น!');
+
+      if (DOM.ocrText) DOM.ocrText.value = finalizedText;
+      showStatusBadge(isThai, resultData.model);
+      if (DOM.result) DOM.result.classList.add('show');
+      setStep(2);
+
+    } catch (error) {
+      if (runId !== processGeneration) return;
+
+      if (DOM.techDetail) {
+        DOM.techDetail.style.display = 'block';
+        DOM.techDetail.textContent = `รายละเอียด Error:\n${error?.message || String(error)}`;
+        DOM.techDetail.style.whiteSpace = 'pre-wrap';
+      }
+      updateProgress(0, 'ประมวลผลไม่สำเร็จ กรุณาลองใหม่อีกครั้ง');
+    } finally {
+      clearTimeout(mainTimeoutId);
+      if (runId === processGeneration) {
+        DOM.btnRead.disabled = false;
+      }
+    }
+  });
+}
+}
+
+// Initialize events on page load
+initEvents();
+</script>
+</body>
+</html>
