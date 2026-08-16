@@ -63,7 +63,6 @@ h1{
 .step.active{background:var(--wax);color:#fff;border-color:var(--wax);}
 .step.done{background:var(--ok);color:#fff;border-color:var(--ok);}
 
-/* Language Switch Style (เพิ่มใหม่) */
 .lang-switch-box{
   display:flex;
   gap:10px;
